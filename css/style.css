@@ -1,0 +1,41 @@
+
+.superbg {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+.card-product {
+	background-color: white;
+}
+
+i
+{
+	color: rgb(255,187,0);
+}
+
+.container {
+	margin-top: 2rem;
+}
+
+a :hover {
+ border-radius: 15px;
+ transition-duration: 0.2s;
+}
+
+.btn {
+	    margin-left: 65px;
+    margin-bottom: 1rem;
+}
+
+.stars {
+	margin-left: 65px;
+}
+
+@media (max-width: 1200px) {
+
+a {
+ 
+	}
+}
