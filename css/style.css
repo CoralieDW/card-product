@@ -4,15 +4,36 @@
     top:0;
     left:0;
     z-index:-1;
+    height: 100%;
+    width: 100%;
 }
 
 .card-product {
 	background-color: white;
 }
 
-i
-{
+.coeur{
+	color: black;
+	background-image: url(https://res.cloudinary.com/dijj1e23c/image/upload/c_scale,h_300,w_500/v1571039724/recette_tea6gc.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ width: 100%;
+ background-size: cover;
+}
+
+.fa-heart {
+	padding-left: 8px;
+	padding-top: 30px;
+	font-size: 25px;
+	color: black;
+}
+
+.stars{
 	color: rgb(255,187,0);
+}
+
+h3{
+margin-left: 10px;
 }
 
 .container {
@@ -33,9 +54,27 @@ a :hover {
 	margin-left: 65px;
 }
 
-@media (max-width: 1200px) {
 
-a {
- 
+
+@media (max-width: 1000px) {
+	.text{
+		text-align: center;
+		margin:0;
 	}
+	.btn {
+	    margin-right:60px;
+}
+.stars {
+	margin-left: 0px;
+}
+.recttes {
+	text-align: center;
+}
+.fa-heart {
+	font-size:35px;
+	
+}
+  .coeur{
+  	height: 500px;
+  }
 }
